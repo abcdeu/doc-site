@@ -37,3 +37,7 @@ markdown形式については、Wikipediaなども参照ください
   ```
   docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
   ```
+
+### Github Pagesで公開
+push時に公開するようにGithub Actinonsを構成します。
+
