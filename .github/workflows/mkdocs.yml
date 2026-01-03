@@ -22,4 +22,4 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install plantuml-markdown python-markdown-math mdx_truly_sane_lists mkdocs-git-revision-date-localized-plugin mkdocs-add-number-plugin
       - name: deploy
-        run: mkdocs gh-deploy -m "publish mkdocs to GitHub Pages" -b main
+        run: mkdocs gh-deploy --force
