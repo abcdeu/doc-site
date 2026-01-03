@@ -39,8 +39,7 @@ markdown形式については、Wikipediaなども参照ください
   ```
 
 ### Github Pagesで公開
-- push時に公開するようにGitHub Actinonsを構成します。
-  https://github.com/abcdeu/doc-site/blob/159e5c7046863d2740ab7c8d1de20f9591dc89ba/.github/workflows/mkdocs.yml
+- push時に公開するようにGitHub Actinonsを[構成](https://github.com/abcdeu/doc-site/blob/159e5c7046863d2740ab7c8d1de20f9591dc89ba/.github/workflows/mkdocs.yml)します。
 - GitHub Pagesを有効化します。
   1. Settings -> Pages
   2. Sources -> Deploy from a branch
@@ -51,5 +50,11 @@ markdown形式については、Wikipediaなども参照ください
   2. `Use your GitHub Pages website`をチェック
 
 ### リンク集
-- https://qiita.com/grhg/items/eb2935ba815db16a16a4#4-github-pagesを設定する
-- https://zenn.dev/mebiusbox/articles/81d977a72cee01
+- [GitHub Pages作成方法 - SmartScope](https://smartscope.blog/en/MkDocs/mkdocs-github-pages-setup/#deploy-to-github-pages)
+- [MkDocsによるドキュメント作成](https://zenn.dev/mebiusbox/articles/81d977a72cee01)
+- [自分がおすすめする VSCode の拡張機能 - Qiita](https://qiita.com/uttne/items/22501c2c319eb5ac8da2)
+- [MkDocsの導入メモ - Qiita](https://qiita.com/zen7sky/items/e0cc522d753b0d61ab11)
+- [MkdocsをDockerで動かしてみた - Qiita](https://qiita.com/haruto830/items/d5bc9148413d3c5aec04)
+- [MkDocsのすゝめ](https://zenn.dev/optimisuke/articles/4489bda5ab29ff)
+- [設計書はMarkdownで管理してPDFに自動変換しよう！ - Qiita](https://qiita.com/grhg/items/eb2935ba815db16a16a4)
+- [MkDocs | ふうせん🎈 FU-SEN](https://balloon-jp.vercel.app/mkdocs/)
