@@ -40,8 +40,8 @@ markdown形式については、Wikipediaなども参照ください
 
 ### Github Pagesで公開
 push時に公開するようにGithub Actinonsを構成します。
+https://github.com/abcdeu/doc-site
 
 ### リンク集
 - https://qiita.com/grhg/items/eb2935ba815db16a16a4#4-github-pagesを設定する
 - https://zenn.dev/mebiusbox/articles/81d977a72cee01
-- https://zenn.dev/optimisuke/articles/4489bda5ab29ff
