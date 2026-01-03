@@ -1,0 +1,24 @@
+name: deploy mkdocs
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v5
+      - name: Configure git info
+        run: |
+          git config --global user.name "github-actions-for-deploy"
+          git config --global user.email deploy-actions@github.com
+      - name: Set up python
+        uses: actions/setup-python@v6
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material
+      - run: pip install plantuml-markdown python-markdown-math mdx_truly_sane_lists mkdocs-git-revision-date-localized-plugin mkdocs-add-number-plugin
+      - name: deploy
+        run: mkdocs gh-deploy --force
